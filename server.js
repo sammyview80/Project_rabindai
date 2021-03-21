@@ -36,6 +36,7 @@ const db = connectDB();
 
 // Router Imports 
 const companysRouter = require('./src/routers/company');
+const usersRouter = require('./src/routers/user');
 
 
 // Using morgan for development
@@ -53,6 +54,7 @@ app.use((req, res, next) => {
 
 // Router middleware
 app.use('/api/v1/companys', companysRouter);
+app.use('/api/v1/companys/users', usersRouter);
 
 
 // Error Handler 

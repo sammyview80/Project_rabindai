@@ -1,0 +1,7 @@
+1. Added the registration of the company.
+2. Login, Registration, Logout routes created.
+
+
+// Required.
+1. Reset Password. // Required smpt email service mailgun.
+2. Create user for the company.
